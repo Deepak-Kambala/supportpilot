@@ -1,0 +1,6 @@
+# Only for the Kaggle notebook (installed there with !pip). Not needed on your Mac.
+transformers
+datasets
+peft
+trl
+accelerate

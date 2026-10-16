@@ -1,0 +1,4 @@
+[server]
+# The file watcher introspects torch.classes on macOS and can destabilize startup.
+# Restart Streamlit manually after editing files.
+fileWatcherType = "none"

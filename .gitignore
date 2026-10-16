@@ -1,0 +1,48 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local app data and generated evaluation output
+data/feedback.jsonl
+data/train.jsonl
+data/eval.jsonl
+results/
+
+# Model weights, tokenizer downloads, and local model caches
+models/**
+!models/.gitkeep
+!models/supportpilot-lora/
+models/supportpilot-lora/**
+!models/supportpilot-lora/README.md
+!models/supportpilot-lora/adapter_config.json
+!models/supportpilot-lora/chat_template.jinja
+.cache/
+hf_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and notebook checkpoints
+*.log
+.ipynb_checkpoints/

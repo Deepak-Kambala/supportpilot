@@ -1,0 +1,12 @@
+# Runtime tested against Python 3.11. Keep the text-only stack consistent;
+# torchvision is intentionally not required by this app.
+streamlit==1.40.2
+pypdf==5.1.0
+numpy==1.26.4
+faiss-cpu==1.9.0.post1
+torch==2.6.0
+transformers==5.20.0
+tokenizers==0.23.3
+sentence-transformers==6.1.0
+accelerate==1.1.1
+peft==0.21.2
